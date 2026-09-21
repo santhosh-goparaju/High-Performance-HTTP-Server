@@ -1,0 +1,32 @@
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# GoogleTest build artifacts
+_deps/
+Testing/
+
+# Benchmark raw output (keep scripts, exclude large raw dumps)
+benchmarks/results/*.raw
+
+# Docker
+.docker/
+
+# OS
+Thumbs.db
