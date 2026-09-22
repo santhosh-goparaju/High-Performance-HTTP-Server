@@ -57,6 +57,7 @@ set(SERVER_SOURCES
     src/server/config.cpp
     src/server/thread_pool.cpp
     src/server/server.cpp
+    src/server/epoll_server.cpp
 )
 
 # ── Library Target (for tests to link against) ─────────────────
